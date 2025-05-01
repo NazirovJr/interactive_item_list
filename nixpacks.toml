@@ -5,7 +5,7 @@ nixPkgs = ["nodejs_18"]
 cmds = [
   "npm install --omit=dev",
   "cd server && npm install --omit=dev",
-  "cd ../client && npm install --omit=dev"
+  "cd /app/client && npm install --omit=dev"
 ]
 
 [start]
