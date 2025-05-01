@@ -1,0 +1,4 @@
+[build]
+builder = "NIXPACKS"
+watchPatterns = ["server/**", "client/**"]
+nixpacksConfigPath = "nixpacks.toml" 
